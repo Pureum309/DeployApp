@@ -1,5 +1,6 @@
 {
   "expo": {
+    "description": "Ohana is an app that creates a network for people with accessibility issues so that they can reach out to multiple individuals who can help them achieve their daily tasks and errands. Ohana attempts to create a community for these people to rely on and be supported and not have to feel guilty or like a burden to their community.",
     "name": "Ohana",
     "slug": "Ohana",
     "version": "1.0.0",

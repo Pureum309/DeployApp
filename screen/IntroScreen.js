@@ -71,9 +71,8 @@ const styles = StyleSheet.create({
         justifyContent: 'center',
     },
     logoImg: {
-        width: deviceWidth * 0.5,
-        height: deviceHeight * 0.3,
-        resizeMode: 'center'
+        width: 300,
+        height: 350,
     },
     txtContainers: {
         PddingBottom: 0
