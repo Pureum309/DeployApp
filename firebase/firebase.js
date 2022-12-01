@@ -8,12 +8,12 @@ import { getFirestore } from "firebase/firestore";
 // https://firebase.google.com/docs/web/setup#available-libraries
 
 const firebaseConfig = {
-    apiKey: "AIzaSyBaYPIz2lHsLa7ES82bMSLPMdO7vRPezmI",
-    authDomain: "ohana-db-18be1.firebaseapp.com",
-    projectId: "ohana-db-18be1",
-    storageBucket: "ohana-db-18be1.appspot.com",
-    messagingSenderId: "432962378011",
-    appId: "1:432962378011:web:aac5d9d1d4841160131bbe"
+    apiKey: process.env.NEXT_PUBLIC_apiKey,
+    authDomain: process.env.NEXT_PUBLIC_authDomain,
+    projectId: process.env.NEXT_PUBLIC_projectId,
+    storageBucket: process.env.NEXT_PUBLIC_storageBucket,
+    messagingSenderId: process.env.NEXT_PUBLIC_messagingSenderId,
+    appId: process.env.NEXT_PUBLIC_appId
 };
 
 // Initialize Firebase
