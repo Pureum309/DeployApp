@@ -264,8 +264,8 @@ const styles = StyleSheet.create({
         height: deviceHeight
     },
     logoImg: {
-        width: deviceWidth * 0.5,
-        height: deviceHeight * 0.3,
+        width: 500,
+        height: 500,
         resizeMode: 'center'
     },
 });
